@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard 1</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0; 
+            background-color: #f0f0f0; 
+        }
+
+        .box {
+            width: 50vw; 
+            height: 50vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> Find the flag being held on this server to get aHEAD of the competition
+        <br><a href="http://mercury.picoctf.net:21939/">Website</a>
+        
+        <form method="post" action="../answer.php">
+            <input type="hidden" name="question_number" value="10">
+            <input type="text" placeholder="ByteQuest{*****}" name="answer" required>
+            <input type="submit" name="" id="">
+
+        </form>
+    </div>
+</body>
+</html>

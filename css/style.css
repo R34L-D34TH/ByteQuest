@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: #000000;
@@ -623,8 +628,8 @@ a:focus {
           align-items: stretch;
   background-color: #ffffff;
   padding: 5px 5px;
-  height: 50px;
-  width: 50px;
+  height: 75px;
+  width: 75px;
 }
 
 .info_section .info_contact .img-box {

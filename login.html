@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      form {
+        width: 300px;
+        margin: 0 auto;
+      }
+      label {
+        display: block;
+        margin-top: 20px;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+      }
+      button {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="post" action="login.php">
+      <label for="username">Email:</label>
+      <input type="email" name="username" />
+      
+      <label for="password">Password:</label>
+      <input type="password" name="password" />
+      
+      <button type="submit">Login</button>
+      <br><br><a href="registeration.html">Not Registered? Register Here.</a>
+    </form>
+
+  </body>
+</html>
