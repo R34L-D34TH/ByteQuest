@@ -74,10 +74,10 @@
                   <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About </a>
+                  <a class="nav-link" href="about.php"> About </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="do.html"> What we do </a>
+                  <a class="nav-link" href="do.php"> What we do </a>
                 </li>
               
               </ul>
