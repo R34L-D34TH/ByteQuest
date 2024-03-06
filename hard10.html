@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard 1</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of viewport */
+            margin: 0; /* Remove default margin */
+            background-color: #f0f0f0; /* Background color for the body */
+            font-family: Arial, sans-serif; /* Font family */
+        }
+
+        .box {
+            width: 60%; /* Set width of the box */
+            max-width: 500px; /* Maximum width of the box */
+            padding: 20px; /* Add padding */
+            background-color: #fff; /* White background */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            text-align: center; /* Center text */
+            font-size: 20px; /* Font size */
+            color: #333; /* Text color */
+        }
+
+        .box a {
+            color: #007bff; /* Link color */
+            text-decoration: none; /* Remove underline */
+            margin-top: 10px; /* Add margin to top of link */
+            display: block; /* Make link a block element */
+        }
+
+        .box input[type="text"] {
+            width: calc(100% - 20px); /* Set width of input */
+            padding: 10px; /* Add padding */
+            margin-top: 20px; /* Add margin to top of input */
+            border: 1px solid #ccc; /* Add border */
+            border-radius: 5px; /* Rounded corners */
+            box-sizing: border-box; /* Include padding and border in width */
+        }
+
+        .box input[type="submit"] {
+            width: 100%; /* Set width of submit button */
+            padding: 10px; /* Add padding */
+            margin-top: 20px; /* Add margin to top of button */
+            background-color: #007bff; /* Button background color */
+            color: #fff; /* Button text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Add pointer cursor */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+
+        .box input[type="submit"]:hover {
+            background-color: #0056b3; /* Darker background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> Find the flag being held on this server to get aHEAD of the competition
+        <br><a href="http://mercury.picoctf.net:21939/">Website</a>
+        
+        <form method="post" action="../answer.php">
+            <input type="hidden" name="question_number" value="10">
+            <input type="text" placeholder="ByteQuest{*****}" name="answer" required>
+            <input type="submit" name="" id="">
+
+        </form>
+    </div>
+</body>
+</html>
